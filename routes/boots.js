@@ -13,7 +13,7 @@ var router = express.Router();
 //router.get('/boots', function(req, res, next) {
 
 
-router.get('/boots', function(req, res, next) {
+router.get('/', function(req, res, next) {
 
 
   // res.render('index001', { title: '=== Bootstrap ===' });
