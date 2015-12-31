@@ -6,4 +6,10 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+
+/* GET boot page. */
+router.get('/', function(req, res, next) {
+  res.render('index001', { title: '=== Bootstrap ===' });
+});
+
 module.exports = router;
