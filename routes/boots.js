@@ -21,5 +21,14 @@ router.get('/', function(req, res, next) {
 
 });
 
+router.get('/navbar', function(req, res, next) {
+
+
+  // res.render('index001', { title: '=== Bootstrap ===' });
+  res.render('boots_navbar', { title: 'boots_navbar' });
+
+});
+
+
 module.exports = router;
 
