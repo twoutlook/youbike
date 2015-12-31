@@ -8,6 +8,10 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
+// by Mark, 12/31 10:03
+var boots = require('./routes/boots');
+
+
 var app = express();
 
 // view engine setup
