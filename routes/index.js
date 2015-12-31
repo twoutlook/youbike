@@ -7,9 +7,9 @@ router.get('/', function(req, res, next) {
 });
 
 
-/* GET boot page. */
-router.get('/', function(req, res, next) {
-  res.render('index001', { title: '=== Bootstrap ===' });
-});
+// /* GET boot page. */
+// router.get('/', function(req, res, next) {
+//   res.render('index001', { title: '=== Bootstrap ===' });
+// });
 
 module.exports = router;
